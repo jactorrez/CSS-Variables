@@ -1,0 +1,6 @@
+## Using CSS Variables 
+### Getting familiar with the non-standard, experimental technology called CSS Variables
+
+A small, and fun, project from the [#Javascript30](https://javascript30.com/) challenge. To start off the new year, I wanted to dive deeper into Javascript by learning and using the new and more advanced (and sometimes obscure!) syntax introduced in ES6 in small projects. There's no better way to start than with the \#Javascript30 challenge where 30 vanilla JS projects are built in 30 days.
+
+Although short, this project was fascinating. I was introduced to [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables#Browser_compatibility), which act like variables in SCSS/SASS, except their "life-cycle" doesn't end at compile time. With CSS Variables, your compiled CSS selectors can use and inherit variables which store values you can then re-use throughout your sylesheets. The fascinating thing here is that, if multiple elements share a color, and you want to change this color on all the elements with Javascript, there's no need to target every single one of the elements — all you need to do is target the parent element/selector containing the variables, and all other elements' styles dependent on that variable change, all at once!
